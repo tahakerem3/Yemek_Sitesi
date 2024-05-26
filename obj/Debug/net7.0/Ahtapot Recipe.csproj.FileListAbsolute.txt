@@ -1,0 +1,31 @@
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\appsettings.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.staticwebassets.runtime.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.exe
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.deps.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.runtimeconfig.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.dll
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\bin\Debug\net7.0\Ahtapot Recipe.pdb
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.csproj.AssemblyReference.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.AssemblyInfoInputs.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.AssemblyInfo.cs
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.csproj.CoreCompileInputs.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.RazorAssemblyInfo.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.RazorAssemblyInfo.cs
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets\msbuild.Ahtapot Recipe.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets\msbuild.build.Ahtapot Recipe.props
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Ahtapot Recipe.props
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Ahtapot Recipe.props
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\scopedcss\bundle\Ahtapot Recipe.styles.css
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\scopedcss\projectbundle\Ahtapot Recipe.bundle.scp.css
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.dll
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\refint\Ahtapot Recipe.dll
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.pdb
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\Ahtapot Recipe.genruntimeconfig.cache
+C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\obj\Debug\net7.0\ref\Ahtapot Recipe.dll
