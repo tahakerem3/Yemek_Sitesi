@@ -411,7 +411,7 @@ form button:hover {
                     <a href="#" id="signup-link">Kayıt Ol</a>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="form-box signup">
             <div class="form-details">
                 <h2>Hesap Oluştur</h2>
@@ -419,21 +419,24 @@ form button:hover {
             </div>
             <div class="form-content">
                 <h2>KAYIT OL</h2>
-                <form method="Post" action="Kullanici/Post">
+                @using (Html.BeginForm("Post", "Kullanici", FormMethod.Post))
+                {
+                    @model Ahtapot_Recipe.Models.KullaniciModel;
+                    @Html.HiddenFor(m => m.Id)
                     <div class="input-field">
-                        <input type="text" required>
+                        @Html.EditorFor(m => m.Isim)
                         <label>İsim girin</label>
                     </div>
                     <div class="input-field">
-                        <input type="text" required>
+                        @Html.EditorFor(m => m.Soyisim)
                         <label>Soyisim girin</label>
                     </div>
                     <div class="input-field">
-                        <input type="text" required>
-                        <label>Email adresi girin</label>
+                        @Html.EditorFor(m => m.Eposta)
+                        <label>Email adresinizi girin</label>
                     </div>
                     <div class="input-field">
-                        <input type="password" required>
+                        @Html.EditorFor(m => m.Sifre)
                         <label>Şifre oluşturun</label>
                     </div>
                     @* <div class="policy-text">
@@ -444,7 +447,7 @@ form button:hover {
                         </label>
                     </div> *@
                     <button type="submit">Kayıt Ol</button>
-                </form>
+                }
                 <div class="bottom-link">
                     Hesabınız var mı?
                     <a href="#" id="login-link">Giriş Yap</a>

@@ -4,11 +4,11 @@ using Ahtapot_Recipe.Models;
 
 namespace Ahtapot_Recipe.Controllers;
 
-public class TariflerController : Controller
+public class TarifController : Controller
 {
-    private readonly ILogger<TariflerController> _logger;
+    private readonly ILogger<TarifController> _logger;
 
-    public TariflerController(ILogger<TariflerController> logger)
+    public TarifController(ILogger<TarifController> logger)
     {
         _logger = logger;
     }

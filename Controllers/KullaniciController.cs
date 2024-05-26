@@ -17,10 +17,28 @@ public class KullaniciController : Controller
     {
         return View();
     }
+
     [HttpPost]
-    public IActionResult Post(KullaniciModel model)
+    [ValidateAntiForgeryToken]
+    public IActionResult Post([FromForm] KullaniciModel model)
     {
-        return View();
+        Console.WriteLine(model);
+        if (ModelState.IsValid)
+        {
+            Console.WriteLine("28. satır çalıştı");
+            using (var db = new YemekDbContext())
+            {
+                Console.WriteLine("31");
+                db.Add(model);
+                db.SaveChanges();
+                return Content("Kullanıcı başarıyla kaydedildi.");
+            }           
+        }
+        else{
+            return Content("Kullanıcı kaydedilemedi.");
+        }
+        //return RedirectToAction("Index", "Home");
+
     }
 
     public IActionResult Privacy()
@@ -28,5 +46,5 @@ public class KullaniciController : Controller
         return View();
     }
 
-   
+
 }

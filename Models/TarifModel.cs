@@ -1,6 +1,6 @@
 namespace Ahtapot_Recipe.Models;
 
-public class TarifleriModel
+public class TarifModel
 {
     public int Id { get; set; }
     public string YemekAdi { get; set; }
