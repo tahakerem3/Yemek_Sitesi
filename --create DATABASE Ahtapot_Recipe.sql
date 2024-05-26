@@ -5,8 +5,8 @@ CREATE TABLE Kullanicilar(
    Id       INT              IDENTITY(1,1), 
    Isim     NVARCHAR (50)    NOT NULL, 
    Soyisim  NVARCHAR (50)    NOT NULL, 
-   Eposta   NVARCHAR (50),
-   Sifre    NVARCHAR(20)        NOT NULL,         
+   Eposta   NVARCHAR (50)    NOT NULL,
+   Sifre    NVARCHAR(20)     NOT NULL,         
    PRIMARY KEY (Id));
 
 

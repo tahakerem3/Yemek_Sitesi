@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Ahtapot Recipe.csproj",
+      "projectUniqueName": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\Ahtapot Recipe.csproj",
       "projectName": "Ahtapot Recipe",
-      "projectPath": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Ahtapot Recipe.csproj",
+      "projectPath": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\Ahtapot Recipe.csproj",
       "packagesPath": "C:\\Users\\Taha Kerem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\obj\\",
+      "outputPath": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Taha Kerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
