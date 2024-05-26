@@ -24,12 +24,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Navbar/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyXEhha2tpbWl6ZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Navbar/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyXElsZXRpc2ltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Tarifler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZsZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Tarifler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZsZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/_ViewImports.cshtml]

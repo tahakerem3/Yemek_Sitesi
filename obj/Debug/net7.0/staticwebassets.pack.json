@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\goodman.webp",
+      "PackagePath": "staticwebassets\\images\\goodman.webp"
+    },
+    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\jesse.jpg",
+      "PackagePath": "staticwebassets\\images\\jesse.jpg"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\login-img.jpg",
@@ -27,6 +35,10 @@
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\signup-img.jpg",
       "PackagePath": "staticwebassets\\images\\signup-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ww.webp",
+      "PackagePath": "staticwebassets\\images\\ww.webp"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ckBbDHzzBJML422hnutm9DzlSv6KMcM3A6U8wFDjoR4=",
+  "Hash": "4pV++vGdfTgJvFx+v0d/IEfhURgyerzmBlFsk5mlDNE=",
   "Source": "Ahtapot Recipe",
   "BasePath": "_content/Ahtapot Recipe",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\goodman.webp",
+      "SourceId": "Ahtapot Recipe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\",
+      "BasePath": "_content/Ahtapot Recipe",
+      "RelativePath": "images/goodman.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\goodman.webp"
+    },
+    {
       "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\hero-bg.jpg",
       "SourceId": "Ahtapot Recipe",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\jesse.jpg",
+      "SourceId": "Ahtapot Recipe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\",
+      "BasePath": "_content/Ahtapot Recipe",
+      "RelativePath": "images/jesse.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\jesse.jpg"
     },
     {
       "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\login-img.jpg",
@@ -151,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\signup-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ww.webp",
+      "SourceId": "Ahtapot Recipe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\",
+      "BasePath": "_content/Ahtapot Recipe",
+      "RelativePath": "images/ww.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ww.webp"
     },
     {
       "Identity": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\js\\site.js",
