@@ -52,9 +52,7 @@ C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\staticw
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\scopedcss\bundle\Ahtapot Recipe.styles.css
-C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\scopedcss\projectbundle\Ahtapot Recipe.bundle.scp.css
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\Ahtapot Recipe.dll
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\refint\Ahtapot Recipe.dll
 C:\Users\Taha Kerem\Desktop\Ahtapot Recipe\Yemek_Sitesi\obj\Debug\net7.0\Ahtapot Recipe.pdb

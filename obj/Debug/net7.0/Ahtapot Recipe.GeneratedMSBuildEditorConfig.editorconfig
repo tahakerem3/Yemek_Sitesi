@@ -48,8 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/_LayoutAlternative.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBbHRlcm5hdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Tarif/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZcRHV6ZW5sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Tarif/Ekle.cshtml]
@@ -67,7 +79,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Taha Kerem/Desktop/Ahtapot Recipe/Yemek_Sitesi/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-7hdy2ipp1a

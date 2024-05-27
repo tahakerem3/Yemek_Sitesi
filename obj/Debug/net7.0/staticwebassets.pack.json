@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Ahtapot Recipe.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Ahtapot Recipe.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
