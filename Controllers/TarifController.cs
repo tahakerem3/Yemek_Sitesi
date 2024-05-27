@@ -18,15 +18,22 @@ public class TarifController : Controller
         return View();
     }
     [HttpPost]
-    public IActionResult Create(KullaniciModel model)
+    public IActionResult YemekKaydet(TarifModel model)
+    {
+        using (var db = new YemekDbContext())
+        {
+            model.OlusturulmaTarihi = System.DateTime.Now;
+            model.Olusturan = 1;
+            db.Tarif.Add(model);
+            db.SaveChanges();
+            return Content("Yemek başarıyla kaydedildi.");
+        }
+    }
+
+    public IActionResult Ekle()
     {
         return View();
     }
 
-    public IActionResult Create()
-    {
-        return View();
-    }
 
-   
 }

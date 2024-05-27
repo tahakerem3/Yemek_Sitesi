@@ -354,32 +354,30 @@ form button:hover {
 </style>
 <div class="form-content">
     <h2>YEMEK EKLE</h2>
-    <form method="Post" action="Kullanici/Post">
+    @using (Html.BeginForm("YemekKaydet", "Tarif", FormMethod.Post))
+        {
+        @model Ahtapot_Recipe.Models.TarifModel;
+        @Html.HiddenFor(m => m.Id)
+        @Html.HiddenFor(m => m.OlusturulmaTarihi)
+        @Html.HiddenFor(m => m.Olusturan)                   
+
         <div class="input-field">
-            <input type="text" required>
+            @Html.EditorFor(m => m.YemekAdi)
             <label>Yemek Adı girin</label>
         </div>
         <div class="input-field">
-            <input type="text" required>
+            @Html.EditorFor(m => m.Malzemeler)
             <label>Malzemeleri girin</label>
         </div>
         <div class="input-field">
-            <input type="text" required>
+            @Html.EditorFor(m => m.Yapilisi)
             <label>Yapılışını girin</label>
-        </div>
-        <div class="input-field">
-            <input type="date-time" required>
-            <label>Oluşturulma tarihini girin</label>
-        </div>
-        <div class="input-field">
-            <input type="text" required>
-            <label>Oluşturan kişiyi girin</label>
         </div>
         <div class="input-field">
              <button style="background-color: red;" type="submit">Tarif Ekle</button>
         </div>
         
         
-    </form>
+   }
         
 </div>
