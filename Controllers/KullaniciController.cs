@@ -23,19 +23,25 @@ public class KullaniciController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Post([FromForm] KullaniciModel model)
     {
-        if (ModelState.IsValid)
-        {
+        Console.WriteLine(model.Id.ToString());
+        Console.WriteLine(model.Eposta.ToString());
+        Console.WriteLine(model.Sifre.ToString());
+        Console.WriteLine(model.Isim.ToString());
+        Console.WriteLine(model.Soyisim.ToString());
+        // if (ModelState.IsValid)
+        // {
+            Console.WriteLine("Line 33");
             using (var db = new YemekDbContext())
             {
-                db.Add(model);
+                db.Kullanici.Add(model);
                 db.SaveChanges();
                 return Content("Kullanıcı başarıyla kaydedildi.");
             }
-        }
-        else
-        {
-            return Content("Kullanıcı kaydedilemedi.");
-        }
+        // }
+        // else
+        // {
+        //     return Content("Kullanıcı kaydedilemedi.");
+        // }
         //return RedirectToAction("Index", "Home");
     }
 

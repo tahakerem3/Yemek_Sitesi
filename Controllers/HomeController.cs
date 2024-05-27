@@ -17,6 +17,26 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Anasayfa()
+    {
+        return View();
+    }
+    public IActionResult Hakkimizda()
+    {
+        return View();
+    }
+    public IActionResult Iletisim()
+    {
+        return View();
+    }
+    public IActionResult Ekle()
+    {
+        return View();
+    }
+
+
+
+
 
     public IActionResult Privacy()
     {

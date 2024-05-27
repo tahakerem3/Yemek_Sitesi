@@ -1,0 +1,42 @@
+<div class="form-box signup">
+            <div class="form-details">
+                <h2>Hesap Oluştur</h2>
+                <p>Yemek Tariflerine ulaşmak için kayıt olun.</p>
+            </div>
+            <div class="form-content">
+                <h2>KAYIT OL</h2>
+                @using (Html.BeginForm("Post", "Kullanici", FormMethod.Post))
+                {
+                    @model Ahtapot_Recipe.Models.KullaniciModel;
+                    @Html.HiddenFor(m => m.Id)
+                    <div class="input-field">
+                        @Html.EditorFor(m => m.Isim)
+                        <label>İsim girin</label>
+                    </div>
+                    <div class="input-field">
+                        @Html.EditorFor(m => m.Soyisim)
+                        <label>Soyisim girin</label>
+                    </div>
+                    <div class="input-field">
+                        @Html.EditorFor(m => m.Eposta)
+                        <label>Email adresinizi girin</label>
+                    </div>
+                    <div class="input-field">
+                        @Html.EditorFor(m => m.Sifre)
+                        <label>Şifre oluşturun</label>
+                    </div>
+                    @* <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            Okudum ve kabul ediyorum
+                            <a href="#" class="option">Şartlar & Koşulları</a>
+                        </label>
+                    </div> *@
+                    <button type="submit">Kayıt Ol</button>
+                }
+                <div class="bottom-link">
+                    Hesabınız var mı?
+                    <a href="#" id="login-link">Giriş Yap</a>
+                </div>
+            </div>
+        </div>
