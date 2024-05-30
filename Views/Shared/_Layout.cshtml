@@ -17,6 +17,22 @@
 
 </head>
 <style>
+    .mySlides {
+        display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+
+    .w3-badge {
+        height: 13px;
+        width: 13px;
+        padding: 0
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -527,11 +543,13 @@
         background-color: #e5533d;
     }
 
-      }
+    }
+
     .topnav {
         background-color: #333;
         overflow: hidden;
     }
+
     .topnav a {
         float: left;
         color: #f2f2f2;
@@ -540,10 +558,12 @@
         text-decoration: none;
         font-size: 25px;
     }
+
     .topnav a:hover {
         background-color: #ddd;
         color: black;
     }
+
     .topnav a.active {
         color: white;
     }
@@ -558,10 +578,10 @@
                 <img src="images/logo.jpg" alt="logo">
                 <h2 style="font-size: 30px;">Ahtapot Yemek Tarifleri</h2>
                 <div class="topnav">
-                <a href="Home/Tarifler">Tarifler</a>
-                <a href="Navbar/Iletisim">İletişim</a>
-                <a href="Navbar/Hakkimizda">Hakkımızda</a>
-            </div>
+                    <a href="Home/Tarifler">Tarifler</a>
+                    <a href="Navbar/Iletisim">İletişim</a>
+                    <a href="Navbar/Hakkimizda">Hakkımızda</a>
+                </div>
             </a>
             <ul class="links">
                 <span class="close-btn material-symbols-rounded">close</span>
@@ -581,6 +601,21 @@
             <a href="Home/Tarifler"><button style="background-color: orange">Tariflere Göz At</button></a>
         </div>
     </section>
+    <div style="margin: top;" class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="~/images/kofte.jpg" style="width:500px height:500px">
+        <img class="mySlides" src="~/images/iskender.jpg" style="width:500px height:500px">
+        <img class="mySlides" src="~/images/login-img.jpg" style="width:500px height:500px">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+            style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+    </div>
+
+
 
     <section id="recipes">
         <div class="container">
@@ -588,7 +623,7 @@
             <div class="recipe-grid">
                 <div class="recipe-card">
                     <a href="Home/Tarifler">
-                    <img src="~/images/menemen.webp" alt="Tarif 1">
+                        <img src="~/images/menemen.webp" alt="Tarif 1">
                     </a>
                     <h3>Menemen</h3>
                     <p>Menemen, yumurta, biber, domates ve isteğe bağlı olarak soğan kullanılarak yapılan bir Türk
@@ -597,14 +632,14 @@
                 </div>
                 <div class="recipe-card">
                     <a href="Home/Tarifler">
-                    <img src="~/images/kofte.jpg" alt="Tarif 2">
+                        <img src="~/images/kofte.jpg" alt="Tarif 2">
                     </a>
                     <h3>Köfte</h3>
                     <p>Köfte, kıymaların yuvarlanarak küçük bir top şeklini almasıyla yapılan bir yemektir.</p>
                 </div>
                 <div class="recipe-card">
                     <a href="Home/Tarifler">
-                    <img src="~/images/iskender.jpg" alt="Tarif 3">
+                        <img src="~/images/iskender.jpg" alt="Tarif 3">
                     </a>
                     <h3>İskender</h3>
                     <p>İskender kebap, iskender döner veya Bursa Kebabı; 1867 yılında yapılmaya başlamıştır. Temel
@@ -614,7 +649,7 @@
                 </div>
                 <div class="recipe-card">
                     <a href="Home/Tarifler">
-                    <img src="~/images/makarna.webp" alt="Tarif 4">
+                        <img src="~/images/makarna.webp" alt="Tarif 4">
                     </a>
                     <h3>Makarna</h3>
                     <p>Makarna, geleneksel İtalyan mutfağının temel besini ve ulusal yemeğidir. İlk defa 1154 yılında
@@ -703,6 +738,32 @@
                 formPopup.classList[link.id === 'signup-link' ? 'add' : 'remove']("show-signup");
             });
         });
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
     </script>
 
 </body>
