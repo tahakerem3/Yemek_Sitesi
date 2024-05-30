@@ -791,26 +791,35 @@
 @model IEnumerable<Ahtapot_Recipe.Models.TarifModel>
 
 <body style="background-color: bisque;">
-	
+
 	<section id="recipes">
 		<div class="container">
 			<div class="row">
 				<div class="recipes_1 clearfix">
-					@foreach (var item in Model)
+					@if (Model != null)
 					{
-						<div class="col-sm-4">
+						@foreach (var item in Model)
+						{
+								<div class="col-sm-4">
 
-							<div class="recipes_2">
-								<a><img style="width: 700px; height: 500px" src="~/images/menemen.webp" alt="abc"
-										class="img_responsive"></a>
-								<h4 style="font-size: 30px;">@item.YemekAdi.ToString()</h4>
-								<p style="font-size: 25px;">@item.Yapilisi.ToString()</p>
-								<p style="font-size: 25x;">@item.Malzemeler.ToString()</p>
-								<p style="font-size: 15px;">@item.OlusturulmaTarihi.ToString()</p>
-								<p style="font-size: 15px;">Ekleyen: ahtapot</p>
-							</div>
+									<div class="recipes_2">
+										<a><img style="width: 700px; height: 500px" src="~/images/menemen.webp" alt="abc"
+												class="img_responsive"></a>
+										<h4 style="font-size: 30px;">@item.YemekAdi.ToString()</h4>
+										<p style="font-size: 25px;">@item.Yapilisi.ToString()</p>
+										<p style="font-size: 25x;">@item.Malzemeler.ToString()</p>
+										<p style="font-size: 15px;">@item.OlusturulmaTarihi.ToString()</p>
+										<p style="font-size: 15px;">Ekleyen: ahtapot</p>
+									</div>
 
-						</div>
+								</div>
+						}}
+					else
+					{
+									<div class="d-flex w-100 justify-content-between">
+											<h5 style="font-size: 70px " class="mb-1">Lütfen Giriş Yapınız</h5>
+
+										</div>
 					}
 				</div>
 			</div>

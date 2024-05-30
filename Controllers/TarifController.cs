@@ -27,11 +27,15 @@ public class TarifController : Controller
     }
     public IActionResult Index()
     {
-        using (var db = new YemekDbContext())
+        if (!string.IsNullOrEmpty(HttpContext.Session.GetString("Id")))
         {
-            var tarif = db.Tarif.ToList();
-            return View(tarif);
+            using (var db = new YemekDbContext())
+            {
+                var tarif = db.Tarif.ToList();
+                return View(tarif);
+            }
         }
+        return View();       
     }
     [HttpPost]
     public IActionResult YemekKaydet(TarifModel model)

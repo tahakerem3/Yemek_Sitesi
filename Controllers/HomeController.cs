@@ -35,18 +35,16 @@ public class HomeController : Controller
     }
     public IActionResult Tarifler()
     {
-        using (var db = new YemekDbContext())
-        {
-            var tarif = db.Tarif.ToList();
-            return View(tarif);
-        }
+		if (!string.IsNullOrEmpty(HttpContext.Session.GetString("Id")))
+		{
+			using (var db = new YemekDbContext())
+			{
+				var tarif = db.Tarif.ToList();
+				return View(tarif);
+			}
+		}
+		return View();
     }
-   
-
-
-
-
-
     public IActionResult Privacy()
     {
         return View();
