@@ -11,9 +11,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
     <a style="float: right" href="/Tarif/Ekle">
         <input type="button" class="btn btn-success" value="Tarif Ekle" />
     </a>
-    <a href="/Tarif/Duzenle">
-        <input type="button" class="btn btn-success" value="Tarif Düzenle" />
-    </a>
+
 
 </div>
 
@@ -28,6 +26,13 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
             </div>
             <p style="font-size: 45px " class="mb-1">Yapılışı: @item.Yapilisi.ToString()</p>
             <small style="font-size: 30px ">Malzemeleri: @item.Malzemeler.ToString()</small>
+            @{var href = "/Tarif/Duzenle/" + @item.Id;}
+
+            <a href=@href>
+                <input type="button" class="btn btn-success" value="Tarif Düzenle" />
+            </a>
         </a>
+
+
     }
 </div>

@@ -35,7 +35,11 @@ public class HomeController : Controller
     }
     public IActionResult Tarifler()
     {
-        return View();
+        using (var db = new YemekDbContext())
+        {
+            var tarif = db.Tarif.ToList();
+            return View(tarif);
+        }
     }
    
 
