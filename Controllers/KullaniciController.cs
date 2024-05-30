@@ -18,6 +18,23 @@ public class KullaniciController : Controller
     {
         return View();
     }
+    public IActionResult Anasayfa()
+    {
+        return View();
+    }
+    public IActionResult Hakkimizda()
+    {
+        return View();
+    }
+    public IActionResult Iletisim()
+    {
+        return View();
+    }
+    public IActionResult Ekle()
+    {
+        return View();
+    }
+    
 
     [HttpPost]
     [ValidateAntiForgeryToken]
@@ -30,7 +47,6 @@ public class KullaniciController : Controller
         Console.WriteLine(model.Soyisim.ToString());
         // if (ModelState.IsValid)
         // {
-            Console.WriteLine("Line 33");
             using (var db = new YemekDbContext())
             {
                 db.Kullanici.Add(model);
@@ -53,22 +69,17 @@ public class KullaniciController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Login([FromForm] LoginViewModel model)
     {
-        Console.WriteLine("50");
         if (ModelState.IsValid)
         {
-            Console.WriteLine("53");
             using (var db = new YemekDbContext())
             {
                 var kullanici = db.Kullanici.Where(t => t.Eposta == model.Eposta && t.Sifre == model.Sifre).ToList();
-                Console.WriteLine("57");
                 if (kullanici.Any())
                 {
-                    Console.WriteLine("60");
                     return Content("Giriş Yapıldı!");
                 }
                 else
                 {
-                    Console.WriteLine("64");
                    return Content("Giriş Yapılamadı. Eposta veya şifre yanlış.");
                 }
 

@@ -27,6 +27,11 @@ public class NavbarController : Controller
     {
         return View();
     }
+      public IActionResult Anasayfa()
+    {
+        return View();
+    }
+
 
    
 }

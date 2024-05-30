@@ -1,0 +1,393 @@
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tarifler</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/recipes.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+	#recipes_main {
+		background-image: url(~/images/hero-bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.recipes_inner {
+		padding-top: 170px;
+		padding-bottom: 150px;
+		background-color: #000000ab;
+	}
+
+	.recipes_main_1 {
+		text-align: center;
+	}
+
+	.recipes_main_1 h1 {
+		color: #fff;
+	}
+
+	.recipes_main_1 ul {
+		padding-top: 10px;
+	}
+
+	.recipes_main_1 li {
+		display: inline;
+		padding-right: 5px;
+		color: #fff;
+		font-size: 25px;
+	}
+
+	.recipes_main_1 li a {
+		color: red;
+	}
+
+
+	#cooking {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#cooking .input-text {
+		display: block;
+		width: 100%;
+		color: #e42929;
+		height: 34px;
+		padding: 6px 12px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	
+
+	.cooking_1 {
+		background-color: #fff;
+	}
+
+
+	.recipes_1 {
+		margin-bottom: 10px;
+	}
+
+	.recipes_2 {
+		text-align: center;
+		padding-bottom: 25px;
+		box-shadow: 0px 0 5px 5px red;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+	#cooking select {
+		margin-bottom: 5px;
+	}
+
+	#recipes {
+		text-align: center;
+	}
+	}
+
+	#cooking .input-text {
+		padding: 6px 12px;
+		font-size: 12px;
+	}
+
+	#cooking .input-text {
+		width: 100%;
+	}
+
+	#cooking {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	}
+
+
+	#cooking .input-text {
+		width: 100%;
+	}
+
+	#cooking {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	* {
+		box-sizing: border-box
+	}
+
+
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+
+
+
+	.mySlides {
+		display: none;
+	}
+
+
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	}
+
+
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.text {
+		font-size: 60px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active,
+	.dot:hover {
+		background-color: #717171;
+	}
+
+	.fade {
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	to {
+		opacity: 1
+	}
+	}
+	}
+</style>
+<header>
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			
+			<img class="img" src="~/images/iskender.jpg" style="width:100%">
+			<div style="color: white;" class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<img src="~/images/kofte.jpg" style="width:100%">
+			<div style="color: red;" class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="~/images/makarna.webp" style="width:100%">
+			<div style="color: gold;" class="text"></div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+</header>
+<br><br><br><br>
+
+<body style="background-color: bisque;">
+	<section id="recipes">
+		<div class="container">
+			<div class="row">
+				<div class="recipes_1 clearfix">
+					<div class="col-sm-4">
+						<div class="recipes_2">
+							<a><img style="width: 700px; height: 500px" src="~/images/menemen.webp" alt="abc"
+									class="img_responsive"></a>
+							<h4 style="font-size: 30px;">Menemen</h4>
+							<p style="font-size: 25px;">Yapılışı: Sıvı yağı ve biberleri tavaya alarak biberlerin rengi
+								dönünceye kadar kavurun.
+								Üzerine kabukları soyulup küçük küçük doğranmış domatesleri ilave edin.
+								Kısık ocakta tavanın kapağını kapatarak domateslerin iyice pişmesini bekleyin.
+								Domatesler çok suyu değil, tavaya yapışıyorsa birazcık kaynar su ekleyebilirsiniz.
+								Genellikle de bu duruma gerek kalmayacaktır.
+								Domatesler piştikten sonra yumurtaları kırabilirsiniz. Yumurtaları
+								ister ayrı bir kapta çırpıp ekleyin isterseniz de tavaya kırıp tavada
+								karıştırabilirsiniz.
+								Üzerine tuz ve dilediğiniz baharatları ekleyerek yumurtalar pişene kadar bekleyin.
+								Kaşar peyniri eklemek istiyorsanız bu aşamada peynirleri de ilave edebilirsiniz.
+								Menemeni sıcak olarak servis yapın. Afiyet olsun.</p>
+							<p style="font-size: 25x;">Malzemeler: Domates, kuru soğan, yeşil biber, yumurta.</p>
+							<p style="font-size: 15px;">Eklenme Tarihi: 15.07.2015</p>
+							<p style="font-size: 15px;">Ekleyen: ahtapot</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="recipes_2">
+							<a><img style="width: 700px; height: 500px" src="~/images/kofte.jpg" alt="abc"
+									class="img_responsive"></a>
+							<h4 style="font-size: 35px;">Köfte</h4>
+							<p style="font-size: 30px;">Yapılışı: Uygun bir yoğurma kabı içerisine kıymayı alın.
+								Üzerine rendelenmiş ve suyu sıkılmış soğan, küçük küçük kesilmiş sarımsak, yumurta,
+								galeta unu, sıvı yağ, maydanoz, tuz, karabiber ve kimyonu alın ve malzemeleri
+								güzelce karışana kadar yoğurun.
+								Hazırladığınız harcı üzerini streç ile örtün ve 30 dakika kadar buzdolabında
+								dinlendirin.
+								Sürenin sonunda harcı dolaptan alın, elinizle parçalar kopartarak şekillendirin.
+								Dilediğiniz gibi şekillendirebilirsiniz. Ancak burada
+								köftelerinizin içlerinin de pişmesi için ince olmasına dikkat etmelisiniz.
+								Şekillendirdiğiniz köfteleri uygun bir tabak içerisine alın. Dilerseniz
+								köftelerinizi bu aşamada da dinlendirebilirsiniz.
+								Köfteleri pişirmek için ocaktaki tavaya sıvı yağı alın ve ısın.
+								Ardından köftelerinizi tavanıza alın ve her iki tarafını da çevirerek pişirin.
+								Pişen köftelerinizi fazla yağının süzülmesi için kağıt havlu serdiğiniz tabağa alın
+								ve servis edin. Afiyet olsun. </p>
+							<p style="font-size: 25px;">Malzemeler: Kıyma, soğan, sarımsak, yumurta, galeta uun, sıvı
+								yağ, maydanoz.</p>
+							<p style="font-size: 15px;">Eklenme Tarihi: 25.05.2024</p>
+							<p style="font-size: 15px;">Ekleyen: ahtapot</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="recipes_2">
+							<a><img style="width: 700px; height: 500px" src="~/images/iskender.jpg" alt="abc"
+									class="img_responsive"></a>
+							<h4 style="font-size: 35px;">İskender</h4>
+							<p style="font-size: 30px;">Yapılışı: Yaprak dönerlerimizi tavada çevirerek ısıtıp tekrar
+								hafif kavuruyoruz.
+								Hazır veya önceden yaptığımız pideyi küp küp doğrayarak servis tabağına yerleştiriyoruz.
+								Sosu için tereyağını eritip salçayı ilave ediyoruz.
+								Hafif kavurduktan sonra üzerine yavaş yavaş sıcak su ekleyerek çözdürüyoruz (yoğun yada
+								akışkan olması damak zevkinize kalmış).
+								Karabiberini tuzunu da ilave edip ağzını kapatıp kısık ateşte 5 dakika daha pişirip
+								ocağı kapatıyoruz.
+								Uzun yayvan bir tabağa yerleştirdiğimiz ekmeklerimizin üzerine önce hazırladığımız sosu
+								gezdiriyoruz.
+								Sonra pişen yaprak dönerleri güzelce diziyoruz (ben tekrar sosdan üzerlerine döktüm).
+								Son olarak tereyağını iyice kızdırıp üzerine gezdiriyoruz.
+								Tabağın kenarına biraz yoğurt arzuya göre közlenmiş biber ve domatesle servis yapıyoruz.
+								Afiyet olsun.
+								Bu ölçüyle 4-5 kişilik kebap yapabilirsiniz. Ben dönerimi derin dondurucuda her daim
+								hazır ediyorum. Ani misafire veya canınız çektiğinde çok pratik oluyor. 15 dakikada
+								böylesi muhteşem kebabı hazırlamış oluyorsunuz. </p>
+							<p style="font-size: 20px;">Malzemeler: Et veya tavuk döner, tırnak pide, tereyağ, domates
+								salçası. </p>
+							<p style="font-size: 15px;">Eklenme Tarihi: 17.04.2024</p>
+							<p style="font-size: 15px;">Ekleyen: merolas</p>
+						</div>
+					</div>
+				</div>
+				<div class="recipes_1 clearfix">
+					<div class="col-sm-4">
+						<div class="recipes_2">
+							<a><img style="width: 700px; height: 500px" src="~/images/makarna.webp" alt="abc"
+									class="img_responsive"></a>
+							<h4 style="font-size: 35px;">Makarna</h4>
+							<p style="font-size: 30px;">Yapılışı: 1 litre (5 su bardağı) suyu kaynatın, ardından
+								içerisine 1 tatlı kaşığı tuz ve 1 tatlı kaşığı sıvı yağ atıp iyice karıştırın. Tuz ve
+								yağ iyice karıştıktan sonra 1 paket makarnayı tencereye dökün. Pişirdiğiniz makarnanın
+								kalınlığına göre 10-15 dakika arasında makarnayı kaynatın. İyi yumuşadıktan sonra
+								makarnanın suyunu süzün.
+
+								Ayrı bir tavada ısıttığınız 2 yemek kaşığı sıvı yağı makarnanın içerisine dökün. Makarna
+								pişerken belirli aralıklarla karıştırmayı unutmayın. Eğer makarnaya sos yapacaksanız
+								haşlama suyuna yağ eklemeyin çünkü yağlanan makarna hazırladığınız sosu tutmaz. </p>
+							<p style="font-size: 20px;">Malzemeler: Paket makarna, su, tuz, sıvı yağ veya tereyağ. </p>
+							<p style="font-size: 15px;">Eklenme Tarihi: 11.07.2023</p>
+							<p style="font-size: 15px;">Ekleyen: ahtapot </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = slides.length }
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+</body>
+
+</html>

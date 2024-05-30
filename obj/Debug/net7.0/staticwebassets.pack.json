@@ -9,16 +9,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\goodman.webp",
-      "PackagePath": "staticwebassets\\images\\goodman.webp"
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ahtapot.jpg",
+      "PackagePath": "staticwebassets\\images\\ahtapot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\goodmann.jpg",
+      "PackagePath": "staticwebassets\\images\\goodmann.jpg"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
     },
     {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\iskender.JPG",
+      "PackagePath": "staticwebassets\\images\\iskender.JPG"
+    },
+    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\jesse.jpg",
       "PackagePath": "staticwebassets\\images\\jesse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\kofte.jpg",
+      "PackagePath": "staticwebassets\\images\\kofte.jpg"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\login-img.jpg",
@@ -27,6 +39,14 @@
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\makarna.webp",
+      "PackagePath": "staticwebassets\\images\\makarna.webp"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\menemen.webp",
+      "PackagePath": "staticwebassets\\images\\menemen.webp"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\signup-img.jpg",

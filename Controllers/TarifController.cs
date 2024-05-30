@@ -13,7 +13,18 @@ public class TarifController : Controller
     {
         _logger = logger;
     }
-
+    public IActionResult Anasayfa()
+    {
+        return View();
+    }
+    public IActionResult Hakkimizda()
+    {
+        return View();
+    }
+    public IActionResult Iletisim()
+    {
+        return View();
+    }
     public IActionResult Index()
     {
         using (var db = new YemekDbContext())
@@ -79,4 +90,15 @@ public class TarifController : Controller
             return RedirectToAction("Index");
         }
     }
+    [HttpPost]
+    public IActionResult Sil(TarifModel model)
+    {
+        using (var db = new YemekDbContext())
+        {
+            db.Entry(model).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+    }
+   
 }
