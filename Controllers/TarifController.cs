@@ -75,12 +75,11 @@ public class TarifController : Controller
     }
 
 
-
-    public IActionResult Sil(int id)
+    public IActionResult Sil(int Id)
     {
         using (var db = new YemekDbContext())
         {
-            var tarif = db.Tarif.Where(t => t.Id == id).FirstOrDefault();
+            var tarif = db.Tarif.Where(t => t.Id == Id).FirstOrDefault();
             if (tarif != null)
             {
                 db.Remove(tarif);
@@ -90,15 +89,15 @@ public class TarifController : Controller
             return RedirectToAction("Index");
         }
     }
-    [HttpPost]
-    public IActionResult Sil(TarifModel model)
+
+    
+    public IActionResult TarifSil(int id)
     {
         using (var db = new YemekDbContext())
         {
-            db.Entry(model).State = EntityState.Modified;
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            var tarif = db.Tarif.Where(t => t.Id == id).FirstOrDefault();
+            return View("Sil",tarif);
         }
     }
-   
+
 }

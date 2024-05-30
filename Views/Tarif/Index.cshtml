@@ -19,7 +19,8 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 <div class="list-group">
     @foreach (var item in Model)
     {
-        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+        var hrefDetay = "/Tarif/TarifSil/" + @item.Id;
+        <a href=@hrefDetay class="list-group-item list-group-item-action" aria-current="true">
             <div class="d-flex w-100 justify-content-between">
                 <h5 style="font-size: 70px " class="mb-1">Yemek Adı: @item.YemekAdi.ToString()</h5>
                 <small>Oluşturulma Tarihi: @item.OlusturulmaTarihi.ToString()</small>
