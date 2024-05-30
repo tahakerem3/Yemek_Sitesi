@@ -355,7 +355,7 @@ form button:hover {
 </style>
 <div class="form-content">
     <h2>TARİF SİL</h2>
-    @using (Html.BeginForm("YemekKaydet", "Tarif", FormMethod.Post))
+    @using (Html.BeginForm("YemekKaydet", "Tarif", FormMethod.Post, new { enctype = "multipart/form-data" }))
         {
         @model Ahtapot_Recipe.Models.TarifModel;
         @Html.HiddenFor(m => m.Id)
@@ -378,6 +378,8 @@ form button:hover {
              <button style="background-color: red;" type="submit">Tarif Ekle</button>
         </div>
         
+        <label for="file">Upload Image:</label> 
+        <input type="file" name="file" id="file" style="width: 100%;" /> 
         
    }
         

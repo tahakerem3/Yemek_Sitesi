@@ -1,7 +1,7 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using Ahtapot_Recipe.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
 
 namespace Ahtapot_Recipe.Controllers;
 
@@ -38,12 +38,20 @@ public class TarifController : Controller
         return View();       
     }
     [HttpPost]
-    public IActionResult YemekKaydet(TarifModel model)
+    public IActionResult YemekKaydet(TarifModel model, IFormFile file)
     {
+        var dosyaIsimi = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", file.FileName);
+        using (System.IO.Stream stream = new FileStream(path, FileMode.Create))
+        {
+            file.CopyToAsync(stream);
+        }
+         
         using (var db = new YemekDbContext())
         {
             model.OlusturulmaTarihi = System.DateTime.Now;
             model.Olusturan = 1;
+            //model.YemekFoto = dosyaIsimi;
             db.Tarif.Add(model);
             db.SaveChanges();
             return RedirectToAction("Index");

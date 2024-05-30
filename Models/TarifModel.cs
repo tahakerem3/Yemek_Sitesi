@@ -15,4 +15,6 @@ public class TarifModel
     public string Yapilisi { get; set; }
     public DateTime OlusturulmaTarihi { get; set; }
     public int Olusturan { get; set; }
+
+    //public string YemekFoto { get; set; }
 }
