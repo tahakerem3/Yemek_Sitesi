@@ -51,7 +51,7 @@ public class TarifController : Controller
         {
             model.OlusturulmaTarihi = System.DateTime.Now;
             model.Olusturan = 1;
-            //model.YemekFoto = dosyaIsimi;
+            model.YemekFoto = dosyaIsimi;
             db.Tarif.Add(model);
             db.SaveChanges();
             return RedirectToAction("Index");

@@ -803,7 +803,8 @@
 								<div class="col-sm-4">
 
 									<div class="recipes_2">
-										<a><img style="width: 700px; height: 500px" src="~/images/menemen.webp" alt="abc"
+										@{var dosyaadi="../images/"+@item.YemekFoto.ToString();}
+										<a><img style="width: 700px; height: 500px" src=@dosyaadi alt="abc"
 												class="img_responsive"></a>
 										<h4 style="font-size: 30px;">@item.YemekAdi.ToString()</h4>
 										<p style="font-size: 25px;">@item.Yapilisi.ToString()</p>

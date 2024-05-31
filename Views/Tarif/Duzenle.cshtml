@@ -359,7 +359,8 @@ form button:hover {
         {
         @model Ahtapot_Recipe.Models.TarifModel;
         @Html.HiddenFor(m => m.OlusturulmaTarihi)
-        @Html.HiddenFor(m => m.Olusturan)                   
+        @Html.HiddenFor(m => m.Olusturan)
+        @Html.HiddenFor(m => m.YemekFoto)                      
 
         <div class="input-field">
             @Html.EditorFor(m => m.Id)

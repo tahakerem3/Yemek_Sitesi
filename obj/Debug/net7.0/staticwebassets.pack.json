@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ahtapot-1600x1000.jpg",
+      "PackagePath": "staticwebassets\\images\\ahtapot-1600x1000.jpg"
+    },
+    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ahtapot.jpg",
       "PackagePath": "staticwebassets\\images\\ahtapot.jpg"
     },
