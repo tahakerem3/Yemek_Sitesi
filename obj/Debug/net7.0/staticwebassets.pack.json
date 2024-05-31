@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ahtapot-1600x1000.jpg",
-      "PackagePath": "staticwebassets\\images\\ahtapot-1600x1000.jpg"
-    },
-    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\ahtapot.jpg",
       "PackagePath": "staticwebassets\\images\\ahtapot.jpg"
     },
@@ -33,12 +29,20 @@
       "PackagePath": "staticwebassets\\images\\jesse.jpg"
     },
     {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\kayit.webp",
+      "PackagePath": "staticwebassets\\images\\kayit.webp"
+    },
+    {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\kofte.jpg",
       "PackagePath": "staticwebassets\\images\\kofte.jpg"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\login-img.jpg",
       "PackagePath": "staticwebassets\\images\\login-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\login-img.webp",
+      "PackagePath": "staticwebassets\\images\\login-img.webp"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\logo.jpg",
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\menemen.webp",
       "PackagePath": "staticwebassets\\images\\menemen.webp"
+    },
+    {
+      "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\recipee.jpg",
+      "PackagePath": "staticwebassets\\images\\recipee.jpg"
     },
     {
       "Id": "C:\\Users\\Taha Kerem\\Desktop\\Ahtapot Recipe\\Yemek_Sitesi\\wwwroot\\images\\signup-img.jpg",
